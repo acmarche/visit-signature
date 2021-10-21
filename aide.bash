@@ -10,3 +10,5 @@ npx tailwindcss -o tailwind.css --watch
 NODE_ENV=production npx tailwindcss -o ./dist/tailwind.css
 #extract css
 php signature.php > compiled.html
+#url logo
+#https://vsitmarche.be/wp-content/themes/visitmarche/assets/images/LogoHeidi.jpg
