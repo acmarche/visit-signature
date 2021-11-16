@@ -8,7 +8,7 @@ use Symfony\Component\Mailer\Mailer;
 use Symfony\Component\Mailer\Transport;
 use Symfony\Component\Mime\Email;
 
-$compiledfile = file_get_contents('compiled.html');
+$compiledfile = file_get_contents('/home/jfsenechal/Documents/heidi.html');
 
 $dotenv = new Dotenv();
 try {

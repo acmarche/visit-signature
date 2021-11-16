@@ -12,9 +12,6 @@ $cssToInlineStyles = new CssToInlineStyles();
 $html = file_get_contents('signature.html');
 $css = file_get_contents('dist/tailwind.css');
 // output
-$compiled = $cssToInlineStyles->convert(
-    $html,
-    $css
-);
+$compiled = $cssToInlineStyles->convert($html,$css);
 
 echo $compiled;
