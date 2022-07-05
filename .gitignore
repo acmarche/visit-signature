@@ -2,3 +2,6 @@ composer.lock
 /vendor/
 /.idea
 /.env
+/node_modules
+/package-lock.json
+/dist

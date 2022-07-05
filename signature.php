@@ -10,7 +10,7 @@ use TijsVerkoyen\CssToInlineStyles\CssToInlineStyles;
 $cssToInlineStyles = new CssToInlineStyles();
 
 $html = file_get_contents('signature.html');
-$css = file_get_contents('dist/tailwind.css');
+$css = file_get_contents('dist/output.css');
 // output
 $compiled = $cssToInlineStyles->convert($html,$css);
 

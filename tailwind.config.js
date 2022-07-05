@@ -1,10 +1,6 @@
-
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  mode: 'jit',
-  purge: [
-    './*.html',
-  ],
-  darkMode: false,
+  content: [ './*.html',],
   theme: {
     extend: {
       fontFamily: {
@@ -16,11 +12,7 @@ module.exports = {
           mathieu: '#64966F',
           heidi: '#AAB7D8',
         },
-      },
-    },
-  },
-  variants: {
-    extend: {},
+      },},
   },
   plugins: [],
 }
